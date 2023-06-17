@@ -30,9 +30,8 @@ export function Body() {
                 {audioPlaying ? 'Pausar áudio' : 'Remover água'}
             </button>
 
-            <audio ref={audioRef} src="../../../public/remover-agua-do-alto-falante.mp3" />
+            <audio ref={audioRef} src="public/remover-agua-do-alto-falante.mp3" />
 
-            {/* <img src={Image} alt="imagem" /> */}
             <div className="arrow">
                 <a href="#about">
                     <span></span>
