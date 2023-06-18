@@ -11,7 +11,7 @@ interface IMetaTags {
 const MetaTags: React.FC<IMetaTags> = ({
   title = 'Remover água - Resolva esse problema de forma eficaz',
   description = 'Aprenda a remover a água da caixa de som do seu celular e restaure a qualidade do áudio em poucos passos simples',
-  url = `${process.env.NEXT_PUBLIC_WEBSITE_LINK}`,
+  url = 'https://www.removeragua.com.br/',
   image = ``,
   type = 'website',
 }) => {

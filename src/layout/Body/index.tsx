@@ -56,6 +56,7 @@ export function Body() {
 
     const handleVideoEnded = () => {
         alert('A água foi removida com sucesso!');
+        setAudioPlaying(!audioPlaying)
     };
 
     return (
