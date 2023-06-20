@@ -1,4 +1,4 @@
-import MetaTags from "./components/MetaTags";
+import { MetaTags } from "./components/MetaTags";
 import { Body } from "./layout/Body/index";
 import { Footer } from "./layout/Footer";
 import { Header } from "./layout/Header/index";
