@@ -1,0 +1,23 @@
+{
+  "background_color": "#20123a",
+  "description": "Aprenda a remover a água da caixa de som do seu celular e restaure a qualidade do áudio em poucos passos simples",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Remover Água",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Remover Água",
+  "start_url": "/",
+  "theme_color": "#d64cf1",
+  "categories": [],
+  "screenshots": ["/screenshot.jpg"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "500x500"
+    }
+  ],
+  "shortcuts": ["/screenshot.jpg"],
+  "lang": "pt"
+}
