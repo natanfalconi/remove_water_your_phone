@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface IMetaTags {
   title?: string;
   description?: string;
@@ -8,13 +6,13 @@ interface IMetaTags {
   type?: string;
 }
 
-const MetaTags: React.FC<IMetaTags> = ({
+export function MetaTags({
   title = 'Remover água - Resolva esse problema de forma eficaz',
   description = 'Aprenda a remover a água da caixa de som do seu celular e restaure a qualidade do áudio em poucos passos simples',
   url = 'https://www.removeragua.com.br/',
   image = ``,
   type = 'website',
-}) => {
+}: IMetaTags) {
   return (
     <head>
       <title>{title}</title>
@@ -26,7 +24,5 @@ const MetaTags: React.FC<IMetaTags> = ({
       <meta name="og:description" content={description} />
       <meta name="og:image" content={image} />
     </head>
-  );
-};
-
-export default MetaTags;
+  )
+}
