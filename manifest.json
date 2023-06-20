@@ -1,48 +1,48 @@
 {
-"name": "Remover Água",
-"short_name": "Remover agua",
-"start_url": "/",
-"display": "standalone",
-"description": "Aprenda a remover a água da caixa de som do seu celular e restaure a qualidade do áudio em poucos passos simples",
-"lang": "pt-br",
-"dir": "auto",
-"theme_color": "#20123a",
-"background_color": "#20123a",
-"orientation": "any",
-"icons": [
-    {
-        "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "maskable"
-    },
-    {
-        "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "any"
-    }
-],
-"screenshots": [
-    {
-        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
-        "sizes": "2880x1800",
-        "type": "image/png",
-        "description": "A screenshot of the home page"
-    }
-],
-"related_applications": [
-    {
-        "platform":"windows",
-        "url": " The URL to your app in that app store"
-    }
-],
-"prefer_related_applications": false,
-"shortcuts": [
-    {
-        "name":"The name you would like to be displayed for your shortcut",
-        "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
-        "description":"A description of the functionality of this shortcut"
-    }
-]
+    "name": "Remover Agua",
+    "short_name": "Remover Agua",
+    "start_url": "https://www.removeragua.com.br",
+    "display": "standalone",
+    "description": "Aprenda a remover a água da caixa de som do seu celular e restaure a qualidade do áudio em poucos passos simples",
+    "lang": "PT-BR",
+    "dir": "auto",
+    "theme_color": "#20123a",
+    "background_color": "#20123a",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+            "sizes": "2880x1800",
+            "type": "image/png",
+            "description": "A screenshot of the home page"
+        }
+    ],
+    "related_applications": [
+        {
+            "platform": "windows",
+            "url": " The URL to your app in that app store"
+        }
+    ],
+    "prefer_related_applications": false,
+    "shortcuts": [
+        {
+            "name": "Remover Agua",
+            "url": "/",
+            "description": "Remova a água do seu alto falante"
+        }
+    ]
 }
