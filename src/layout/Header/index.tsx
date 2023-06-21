@@ -3,10 +3,12 @@ import { useTranslation } from 'react-i18next';
 import './header.css';
 import brazilFlag from '/brazilian_flag.png';
 import usaFlag from '/circle-flag-of-usa.webp';
+import espanhaFlag from '/flag-spain-circle.webp';
 
 const languageFlags: Record<string, string> = {
-    pt: brazilFlag,
     en: usaFlag,
+    pt: brazilFlag,
+    es: espanhaFlag,
 };
 
 export function Header() {

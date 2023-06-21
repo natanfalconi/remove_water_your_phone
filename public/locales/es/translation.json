@@ -1,0 +1,13 @@
+{
+    "title": "Eliminar Agua",
+    "heroTitle": "HAGA CLIC AQUÍ PARA ELIMINAR EL AGUA",
+    "textButton": "Eliminar agua",
+    "textButtonPause": "Pausar audio",
+    "description": {
+        "title": "Eliminar Agua del Teléfono",
+        "text": "¿Tu teléfono se cayó en el inodoro, lavabo o piscina? A diferencia del Apple Watch, los teléfonos actuales no tienen una función incorporada para eliminar el agua de los altavoces. Aunque son resistentes al agua, la humedad en los altavoces afecta el sonido y puede causar daños permanentes. ¡Pero no te preocupes! Simplemente haz clic en este gran botón azul y listo. El agua de tu teléfono será completamente expulsada en solo unos segundos. Recibirás una notificación cuando el proceso esté completo."
+    },
+    "footer": {
+        "title": "Todos los derechos reservados."
+    }
+}
