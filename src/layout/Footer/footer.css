@@ -10,3 +10,8 @@ footer {
 footer p {
     font-size: 14px;
 }
+
+footer p a {
+    font-size: 16px;
+    color: aquamarine;
+}

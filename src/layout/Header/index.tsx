@@ -1,25 +1,50 @@
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './header.css';
+import brazilFlag from '/brazilian_flag.png';
+import usaFlag from '/circle-flag-of-usa.webp';
+
+const languageFlags: Record<string, string> = {
+    en: usaFlag,
+    pt: brazilFlag,
+};
 
 export function Header() {
-    const { t } = useTranslation();
-    const { i18n } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const [isOpen, setIsOpen] = useState(false);
+    const [selectedLanguage, setSelectedLanguage] = useState("en");
 
-    const changeLanguage = (event: any) => {
-        const selectedLanguage = event.target.value;
-        i18n.changeLanguage(selectedLanguage);
+    const toggleDropdown = () => {
+        setIsOpen(!isOpen);
+    };
+
+    const selectLanguage = (language: string) => {
+        setSelectedLanguage(language);
+        i18n.changeLanguage(language);
+        setIsOpen(false);
     };
 
     return (
         <header>
-            <h1>{t('welcomeMessage')}</h1>
+            <h1>{t("title")}</h1>
 
-            <div>
-                <select onChange={changeLanguage}>
-                    <option value="en">English</option>
-                    <option value="pt">Português</option>
-                </select>
+            <div className="dropdown">
+                <div className="dropdown-toggle" onClick={toggleDropdown}>
+                    <img src={languageFlags[selectedLanguage]} alt={selectedLanguage} />
+                    <span>{selectedLanguage}</span>
+                </div>
+
+                {isOpen && (
+                    <div className="dropdown-menu">
+                        {Object.keys(languageFlags).map((language) => (
+                            <div className="dropdown-item" key={language} onClick={() => selectLanguage(language)}>
+                                <img src={languageFlags[language]} alt={language} />
+                                <span>{language}</span>
+                            </div>
+                        ))}
+                    </div>
+                )}
             </div>
         </header>
-    )
+    );
 }

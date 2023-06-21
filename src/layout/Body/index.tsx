@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ReactPlayer from 'react-player';
 import './body.css';
 
 export function Body() {
+    const { t } = useTranslation();
     const [audioPlaying, setAudioPlaying] = useState(false);
 
     const handleButtonClick = () => {
@@ -16,10 +18,10 @@ export function Body() {
 
     return (
         <section id='hero'>
-            <h1>Clique aqui para remover a Água</h1>
+            <h1>{t('heroTitle')}</h1>
 
             <button className={audioPlaying ? 'btn active' : 'btn'} onClick={handleButtonClick}>
-                {audioPlaying ? 'Pausar áudio' : 'Remover água'}
+                {audioPlaying ? `${t('textButtonPause')}` : `${t('textButton')}`}
             </button>
 
             {audioPlaying && (

@@ -1,16 +1,14 @@
+import { useTranslation } from 'react-i18next'
 import './info.css'
 
 export function Info() {
+    const { t } = useTranslation()
     return (
         <section id='info'>
-            <h2>Remover Água do Celular</h2>
+            <h2>{t('description.title')}</h2>
 
             <p>
-                Seu celular caiu no vaso sanitário, pia ou na piscina?
-                Ao contrário do Apple Watch, os celulares atuais não possuem uma função embutida para remover a água dos alto-falantes.
-                Embora sejam resistentes à água, a umidade nos alto-falantes prejudica o som e pode causar danos permanentes. No entanto, não se preocupe!
-                Basta clicar neste botão azul grande e pronto! A água do seu celular será totalmente expelida em apenas alguns segundos.
-                Você receberá uma notificação quando o processo estiver concluído.
+                {t('description.text')}
             </p>
         </section>
     )
