@@ -5,14 +5,14 @@ import brazilFlag from '/brazilian_flag.png';
 import usaFlag from '/circle-flag-of-usa.webp';
 
 const languageFlags: Record<string, string> = {
-    en: usaFlag,
     pt: brazilFlag,
+    en: usaFlag,
 };
 
 export function Header() {
     const { t, i18n } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
-    const [selectedLanguage, setSelectedLanguage] = useState("en");
+    const [selectedLanguage, setSelectedLanguage] = useState("pt");
 
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
