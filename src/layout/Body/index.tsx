@@ -39,7 +39,7 @@ export function Body() {
             {/* teste mondiad */}
             <div data-mndazid="a6e925e9-c60e-4e7a-af46-fb0c52e49926"></div>
             {/* teste adsterra */}
-            <div id="container-1ce5408fc7ae4485ac7212c2890f9dc6"></div>
+            {/* <div id="container-1ce5408fc7ae4485ac7212c2890f9dc6"></div> */}
 
 
             <div className='arrow'>
