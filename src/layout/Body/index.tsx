@@ -36,6 +36,8 @@ export function Body() {
                 />
             )}
 
+            {/* teste mondiad */}
+            <div data-mndazid="a6e925e9-c60e-4e7a-af46-fb0c52e49926"></div>
 
 
             <div className='arrow'>
