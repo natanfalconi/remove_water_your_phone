@@ -1,3 +1,5 @@
+import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './header.css';
@@ -34,6 +36,7 @@ export function Header() {
                 <div className="dropdown-toggle" onClick={toggleDropdown}>
                     <img src={languageFlags[selectedLanguage]} alt={selectedLanguage} />
                     <span>{selectedLanguage}</span>
+                    <FontAwesomeIcon icon={isOpen ? faChevronUp : faChevronDown} color='#fff' />
                 </div>
 
                 {isOpen && (

@@ -29,6 +29,10 @@ header h1 {
     margin-right: 8px;
 }
 
+.dropdown-toggle svg {
+    margin-left: 4px;
+}
+
 .dropdown-menu {
     position: absolute;
     top: 30px;
