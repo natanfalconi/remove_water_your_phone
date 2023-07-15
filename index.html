@@ -38,6 +38,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
     rel="stylesheet" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
 
   <title>Remover água - Resolva esse problema de forma eficaz</title>
 
@@ -53,6 +54,15 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, "script", "dataLayer", "GTM-N28PLSR");
   </script>
+
+  <!-- <script>navigator.serviceWorker.register("public/service-worker.js")</script> -->
+
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register("public/pwabuilder-sw.js")
+    }
+  </script>
+
 </head>
 
 <body>
