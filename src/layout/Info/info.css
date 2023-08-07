@@ -7,6 +7,10 @@
     background: #20123a;
 }
 
+#info > div{
+  width: 80%;
+}
+
 #info h2 {
     color: #9059ff;
 
