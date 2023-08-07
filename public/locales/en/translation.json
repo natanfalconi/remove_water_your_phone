@@ -9,5 +9,21 @@
     },
     "footer": {
         "title": "All rights reserved."
-    }
+    },
+    "table": {
+        "title": "Compatible Smartphone Brands",
+        "thead": {
+          "titleThead": "Brand",
+          "question": "Compatible?"
+        },
+        "brands": {
+          "apple": "Apple (iPhone)",
+          "samsung": "Samsung",
+          "motorola": "Motorola",
+          "xiaomi": "Xiaomi",
+          "huawei": "Huawei",
+          "googlePixel": "Google Pixel"
+        },
+        "compatibility": "Yes"
+      }
 }

@@ -14,39 +14,22 @@ export function Info() {
             </div>
 
             <div>
-                <h2>Marcas de Telefones Compatíveis</h2>
+                <h2>{t('table.title')}</h2>
+
                 <table>
                     <thead>
                         <tr>
-                            <th>Marca</th>
-                            <th>Compatível?</th>
+                            <th>{t('table.thead.titleThead')}</th>
+                            <th>{t('table.thead.question')}</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>iPhone (Apple)</td>
-                            <td>Sim</td>
-                        </tr>
-                        <tr>
-                            <td>Samsung</td>
-                            <td>Sim</td>
-                        </tr>
-                        <tr>
-                            <td>Motorola</td>
-                            <td>Sim</td>
-                        </tr>
-                        <tr>
-                            <td>Xiaomi</td>
-                            <td>Sim</td>
-                        </tr>
-                        <tr>
-                            <td>Huawei</td>
-                            <td>Sim</td>
-                        </tr>
-                        <tr>
-                            <td>Google Pixel</td>
-                            <td>Sim</td>
-                        </tr>
+                        {Object.keys(t('table.brands')).map((brandKey) => (
+                            <tr key={brandKey}>
+                                <td>{t(`table.brands.${brandKey}`)}</td>
+                                <td>{t('table.compatibility')}</td>
+                            </tr>
+                        ))}
                     </tbody>
                 </table>
             </div>

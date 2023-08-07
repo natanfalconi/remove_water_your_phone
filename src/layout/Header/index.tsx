@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './header.css';
-import brazilFlag from '/brazilian_flag.png';
+import brazilFlag from '/brazilian_flag.webp';
 import usaFlag from '/circle-flag-of-usa.webp';
 import espanhaFlag from '/flag-spain-circle.webp';
 
