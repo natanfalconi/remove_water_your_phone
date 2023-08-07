@@ -10,20 +10,14 @@
     "footer": {
         "title": "Todos os direitos reservados."
     },
-    "table": {
-        "title": "Marcas de Smartphones Compatíveis",
-        "thead": {
-            "titleThead": "Marca",
-            "question": "Compatível ?"
-        },
-        "brands": {
-            "apple": "Apple (IPhone)",
-            "samsung": "Samsung",
-            "motorola": "Motorola",
-            "xiaomi": "Xiaomi",
-            "huawei": "Huawei",
-            "googlePixel": "Google Pixel"
-        },
-        "compatibility": "Sim"
-    }
+    "titleTable": "Marcas de smartphones compatíveis",
+    "Marca": "Marca",
+    "Compatível": "Compatível ?",
+    "Apple": "Apple (IPhone)",
+    "Samsung": "Samsung",
+    "Motorola": "Motorola",
+    "Xiaomi": "Xiaomi",
+    "Huawei": "Huawei",
+    "Google Pixel": "Google Pixel",
+    "Sim": "Sim"
 }

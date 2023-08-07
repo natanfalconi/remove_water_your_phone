@@ -1,29 +1,23 @@
 {
-    "title": "Remove Water",
-    "heroTitle": "CLICK HERE TO REMOVE THE WATER",
-    "textButton": "Remove water",
-    "textButtonPause": "Pause audio",
-    "description": {
-        "title": "Remove Water from Your Phone",
-        "text": "Did your phone fall into the toilet, sink, or pool? Unlike the Apple Watch, current smartphones do not have a built-in function to remove water from the speakers. While they are water-resistant, moisture in the speakers can affect the sound quality and potentially cause permanent damage. However, don't worry! Just click on this big blue button, and voila! The water from your phone will be completely expelled in just a few seconds. You will receive a notification when the process is complete."
-    },
-    "footer": {
-        "title": "All rights reserved."
-    },
-    "table": {
-        "title": "Compatible Smartphone Brands",
-        "thead": {
-          "titleThead": "Brand",
-          "question": "Compatible?"
-        },
-        "brands": {
-          "apple": "Apple (iPhone)",
-          "samsung": "Samsung",
-          "motorola": "Motorola",
-          "xiaomi": "Xiaomi",
-          "huawei": "Huawei",
-          "googlePixel": "Google Pixel"
-        },
-        "compatibility": "Yes"
-      }
+  "title": "Remove Water",
+  "heroTitle": "CLICK HERE TO REMOVE THE WATER",
+  "textButton": "Remove water",
+  "textButtonPause": "Pause audio",
+  "description": {
+      "title": "Remove Water from Your Phone",
+      "text": "Did your phone fall into the toilet, sink, or pool? Unlike the Apple Watch, current smartphones do not have a built-in function to remove water from the speakers. While they are water-resistant, moisture in the speakers can affect the sound quality and potentially cause permanent damage. However, don't worry! Just click on this big blue button, and voila! The water from your phone will be completely expelled in just a few seconds. You will receive a notification when the process is complete."
+  },
+  "footer": {
+      "title": "All rights reserved."
+  },
+  "titleTable": "Compatible Smartphone Brands",
+  "Marca": "Brand",
+  "Compatível": "Compatible?",
+  "Apple": "Apple (IPhone)",
+  "Samsung": "Samsung",
+  "Motorola": "Motorola",
+  "Xiaomi": "Xiaomi",
+  "Huawei": "Huawei",
+  "Google Pixel": "Google Pixel",
+  "Sim": "Yes"
 }
